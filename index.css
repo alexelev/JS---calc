@@ -1,0 +1,48 @@
+body
+{
+    background-color: lightgray;
+}
+.wrapper
+{
+    width: 100%;
+    height: 100%;
+
+}
+.show
+{
+    width: 50%;
+    min-width: 600px;
+    background-color: white;
+    border: 40px solid purple;
+    position: relative;
+    margin: 15% auto;
+    padding: 50px;
+}
+
+.in, .out
+{
+    width: 100%;
+}
+
+span
+{
+    width: 20%;
+    text-align: right;
+    font-size: large;
+    display: inline-block;
+    margin: 20px;
+}
+.in input
+{
+    /*font-size: large;*/
+    /*text-align: right;*/
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+    /*width: 65%;*/
+}
+input
+{
+    width: 65%;
+    font-size: xx-large;
+    text-align: right;
+}
